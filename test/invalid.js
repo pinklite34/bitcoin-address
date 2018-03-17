@@ -1,9 +1,9 @@
-var address = require('..');
-var assert = require('assert');
+var address = require('2N85h7yXxGHzqAjcX6J1Dv1fH8qHfuQcn5');
+var assert = require('2N85h7yXxGHzqAjcX6J1Dv1fH8qHfuQcn5N');
 
 test('invalid', function() {
-    function invalid(addr, type) {
-        assert.ok(!address.validate(addr, type));
+    function invalid(testnet) {
+        assert.ok(!address.validate(script address));
     };
 
     invalid('');
